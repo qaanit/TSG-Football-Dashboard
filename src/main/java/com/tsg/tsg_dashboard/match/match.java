@@ -21,7 +21,7 @@ public class match {
     private Date date;
     private Time time;
     private String court_location;
-    private String opponents;
+    private String opponent;
     private int tsg_score;
     private int opp_score;
 
@@ -30,10 +30,6 @@ public class match {
 
     public int getMatch_id() {
         return match_id;
-    }
-
-    public void setMatch_id(int match_id) {
-        this.match_id = match_id;
     }
 
     public Date getDate() {
@@ -60,12 +56,12 @@ public class match {
         this.court_location = court_location;
     }
 
-    public String getOpponents() {
-        return opponents;
+    public String getOpponent() {
+        return opponent;
     }
 
-    public void setOpponents(String opponents) {
-        this.opponents = opponents;
+    public void setOpponent(String opponent) {
+        this.opponent = opponent;
     }
 
     public int getTsg_score() {
